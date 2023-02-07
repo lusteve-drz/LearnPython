@@ -107,7 +107,6 @@ first_total = (first_name + second_name).count('t') + (first_name + second_name)
 second_total = (first_name + second_name).count('l') + (first_name + second_name).count('o') + \
               (first_name + second_name).count('v') + (first_name + second_name).count('e')
 total = str(first_total) + str(second_total)
-# print(f'{str(first_total) + str(second_total)}')
 total = int(total)
 if total <= 10 or total >= 90:
     print(f'Your score is {total}, you go together like coke and mentos.')
