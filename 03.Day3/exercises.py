@@ -97,11 +97,6 @@
 print('Welcome to Love Calculator!')
 first_name = input("What is your name? ").lower()
 second_name = input("What is their name?: ").lower()
-
-# first_total = first_name.count("t") + first_name.count("r") + first_name.count('u') + first_name.count('e') + \
-#               first_name.count('l') + first_name.count('o') + first_name.count('v')
-# second_total = second_name.count("t") + second_name.count("r") + second_name.count('u') + second_name.count('e') + \
-#               second_name.count('l') + second_name.count('o') + second_name.count('v')
 first_total = (first_name + second_name).count('t') + (first_name + second_name).count('r') + \
               (first_name + second_name).count('u') + (first_name + second_name).count('e')
 second_total = (first_name + second_name).count('l') + (first_name + second_name).count('o') + \
